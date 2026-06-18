@@ -1,11 +1,7 @@
-# numbers = [1,2,3,4]
-# new_numbers = [n+5 for n in numbers if n > 1]
-#
-# print(new_numbers)
+def add(*add_nums):
+    sum = 0
+    for num in add_nums:
+        sum += num
+    print(sum)
 
-#---------------------------------------------------------------------------------------------------------------------#
-
-name = "Jithu"
-new_name =[letter for letter in name]
-print(new_name)
-
+add(3,7)
